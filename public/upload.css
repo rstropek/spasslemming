@@ -1,0 +1,18 @@
+body {
+    background-color: #00004d;
+    }
+    
+    
+
+    #text{
+        color: white;
+
+         text-align: center;
+    }
+    #form1{
+        margin-top: 200px;
+        border:1px solid red;
+        width:50%; 
+        text-align: center;
+    }
+    

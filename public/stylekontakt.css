@@ -1,0 +1,24 @@
+body {
+    background-color: #00004d;
+    }
+    
+    #uberschrift1{
+    
+        text-align: center ;
+        margin-top: 50px ;
+        color:white;
+        
+    }
+    #Discordb {
+        color : white ;
+        display : block ;
+        text-align:center ;
+        margin-top: 75px ;
+        font-size:35px ;
+        
+    
+    } 
+    #discordwidget{
+        ruby-align: center;
+        margin-top : 100px ;
+        }
