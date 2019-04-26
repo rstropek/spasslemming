@@ -16,7 +16,8 @@
     "crypto": "^1.0.1",
     "express": "^4.16.4",
     "formidable": "^1.2.1",
-    "parser": "^0.1.4"
+    "parser": "^0.1.4",
+    "setimmediate": "^1.0.5"
   },
   "engines": {
     "node": "8.9.4",

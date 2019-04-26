@@ -64,8 +64,8 @@ app.post('/submit-login', function (req, res) {
 app.post("/fileupload", function (req, res) {
   var form = new formidable.IncomingForm();
   form.parse(req, function (err, fields, files) {
-    var oldpath = files.filetoupload.path;
-    var newpath = process.env.UPLOAD_FOLDER + files.filetoupload.name;
+    var oldpath = files["file1"].path;
+    var newpath = process.env.UPLOAD_FOLDER + files["file1"].name;
     fs.copyFile(oldpath, newpath, function (err) {
       if (err) throw err;
       res.redirect('/succes.html');
